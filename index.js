@@ -37,11 +37,22 @@ var obj ={
     }
 }
 obj. address.city="siddipet"
-console.log(obj)
+console.log(obj)//{ name: 'kumar', age: 22, address: { city: 'siddipet', state: 'tg' } }
 var car1 = {
     brand: 'Toyota',
     model:'corolla',
     year:2020
 }
 car1.year=2022
-console.log(car1);
+console.log(car1);//{ brand: 'Toyota', model: 'corolla', year: 2022 }
+var recipe ={
+    name:'rinku',
+    servings:2,
+    ingredients:['noodles','souce']
+
+};
+recipe.ingredients.push('cheese');
+console.log(recipe);
+// name: 'rinku',
+//servings: 2,
+//ingredients: [ 'noodles', 'souce', 'cheese' ]
